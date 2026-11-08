@@ -4,27 +4,41 @@ Failure modes that produce confidently wrong growth advice. Owners move real bud
 
 ---
 
-## Gotcha: recommending more spend on a saturating channel
+## Gotcha: treating higher cost per lead as proof of saturation
 
-**Why it matters:** Rising spend with rising cost per lead means the channel is running out of audience, not scaling. "It's working, spend more" is the single most expensive wrong call this skill can make.
+**Why it matters:** The same headline can come from changing customer mix or worsening costs within a campaign. The right investigation and budget decision depend on which occurred.
 
 ### Bad
 
 ```
-Paid social drove 47 leads, up from 29. Recommend increasing budget 50%.
+Paid-social spend and cost per lead rose together. The channel is saturated. Cut the budget.
 ```
 
-Spend went from USD 900 to USD 3,200 and cost per lead went from USD 31 to USD 68. Volume rose because spend rose. Efficiency collapsed.
+In two comparable periods, the first campaign went from 100 to 50 leads at USD 10 per lead. The second went from 20 to 100 leads at USD 30 per lead. Spend rose from USD 1,600 to USD 3,500 and overall cost per lead rose from USD 13.33 to USD 23.33. Neither campaign's cost per lead changed.
 
 ### Good
 
 ```
-Paid-social volume is up but cost per lead rose from USD 31 to USD 68 as spend tripled.
-That's saturation, not scale. Hold budget flat and fix creative before adding
-more — another 50% of budget likely buys leads at USD 90.
+Paid-social cost per lead rose from USD 13.33 to USD 23.33 as the higher-cost campaign
+accounted for more leads. Both campaigns' individual costs held steady. Compare their
+qualified lead costs before reallocating budget.
 ```
 
-Always check cost per lead against spend before recommending budget in either direction.
+If costs rise within comparable campaigns, show where and by how much. Without segment detail, report the headline and request the breakdown. See `thresholds.md` for the comparison checks.
+
+## Gotcha: comparing a fresh lead cohort with a mature one
+
+**Why it matters:** A new cohort can appear to convert worse simply because fewer leads have had time to close. A period's closed deals can also include leads acquired before that period.
+
+### Good
+
+```
+The last 100 leads have 12 wins so far, while the previous 100 have 22. At 14 days
+after acquisition, both cohorts had 12 wins. Compare them again when the new cohort
+reaches the same age, or report the current cohort as still maturing.
+```
+
+Use the same elapsed time from lead creation to count wins, and include all leads eligible for that follow-up window. If lead creation or close dates are missing, report the observed counts and leave the cohort comparison unavailable.
 
 ---
 

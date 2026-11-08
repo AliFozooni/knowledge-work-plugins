@@ -55,11 +55,13 @@ This is where the skill earns its keep. Five views on their own are still a dash
 
 The connections that matter most:
 
-- **Spend rising while cost per lead rises** means the channel is saturating, not scaling
-- **Strong lead volume with falling win rate** points at lead quality or response speed, not at marketing
+- **Spend and cost per lead rising together** flags a change in acquisition cost. Check whether the same segments got more expensive or more leads came from already expensive segments before proposing a budget change. See `reference/thresholds.md`.
+- **Strong lead volume with falling win rate** warrants checking lead mix, response speed, and whether the newer leads have had as much time to close. Compare cohorts at the same age before diagnosing a conversion problem.
 - **One product carrying the whole trend** means the growth is more fragile than the total suggests
 - **Sentiment dropping while revenue holds** is the early warning that shows up in revenue two months later
 - **A stage where the funnel drops off sharply** is usually worth more than any new campaign
+
+When only period totals are available, describe both observations directly, for example, "Spend doubled while lead volume stayed flat." Claims about what the additional spend bought require evidence that isolates its effect.
 
 Look for the single sentence that explains the period. Lead with it.
 
@@ -71,7 +73,7 @@ Each action needs three things or it isn't an action:
 
 - **What to do** — specific enough to start today
 - **Why** — the number from this pulse that justifies it
-- **What it's worth** — the rough size of the opportunity or the risk
+- **What it's worth** — the rough size of the opportunity or the risk. If the evidence supports only the amount at stake in the observed period, give that amount and say the impact is unknown.
 
 Rank them by size of impact, not by ease. Owners can decide what's easy; only this pulse can tell them what's big.
 

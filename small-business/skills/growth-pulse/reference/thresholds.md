@@ -63,7 +63,13 @@ Response speed deserves attention out of proportion to its size. Inbound leads g
 - Yellow: rising 0% to 25%
 - Red: rising more than 25%
 
-A rising cost per lead alongside rising spend means the channel is saturating. More budget will not fix it, and recommending more budget there is the most common way this pulse gives bad advice.
+Apply the color to the observed cost change. Before recommending a budget change:
+
+1. Compare equal-length periods with the same lead definition, attribution window, currency, and spend coverage. Show spend and lead counts alongside each cost per lead. If either period has zero leads, show spend and zero leads, and mark cost per lead unavailable.
+2. If segment-level spend and leads are available, compare cost per lead within the same campaigns, audiences, or geographies. Aggregate cost per lead is total spend divided by total leads. It can rise solely because a larger share of leads came from higher-cost segments. Call out new or missing segments separately and show how much of the total the matched segments cover.
+3. If comparable segments became more expensive, report the decline and investigate likely drivers such as auction cost, creative fatigue, conversion, or tracking. If only the mix changed, report that shift and compare qualified lead cost or realized return where attribution and follow-up windows are comparable. If the exports lack the detail, state what is missing and request it before recommending a change based on this signal.
+
+Treat saturation as a hypothesis. Describe the observed spend and lead changes separately. Two before-and-after totals cannot establish how many leads the extra spend caused or what would happen if it were removed. With cost-per-lead data alone, say the budget decision is undetermined and recommend gathering the missing evidence. Leave out numeric spend targets, including a rollback to the previous spend. A budget test with a credible concurrent comparison can help separate the spend effect from changes in the market.
 
 ---
 
